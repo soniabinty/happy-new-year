@@ -49,7 +49,7 @@ font-weight: 900;
     margin: 70px auto ;
     width: 802.9px;
 height: 806px;
-border: 2px solid red;
+/* border: 2px solid red; */
 margin-top: 90px;
 }
 .snd-content{
@@ -91,4 +91,112 @@ height: 500px;
     .snd-im{
         height: 100%;
         width: 100%;
+    }
+    /* third sec */
+    .trd-sec{
+        width: 1320px;
+height: 600px;
+/* border: 2px solid red; */
+margin: 0 auto;
+display: flex;
+background-image: url(images/Vectorrr.png);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-color: rgba(0, 0,0,0.5);
+background-blend-mode: overlay;
+    }
+    .trd-div{
+        width: 50%;
+        height: 600px;
+        /* border: 2px solid green; */
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
+ .td-two{
+            width: 50%;
+            height: 600px;
+            /* border: 2px solid yellow; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+.trd-div h2{
+           
+color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 64px;
+font-weight: 900;
+        }
+        .trd-div p{
+            color: rgba(255, 255, 255, 0.8);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+margin-left: 60px;
+        }
+        .trd-div span{
+            color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+text-align: left;
+
+    }
+    .two{
+        width: 349.16px;
+height: 464.65px;
+    }
+    .fr-sec{
+        /* border: 2px solid red; */
+        width: 1320px;
+height: 482px;
+border-radius: 16px;
+
+background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+margin: 0 auto;
+margin-top: 90px;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+    }
+    .fr-div{
+        /* border: 2px solid red; */
+        display: block;
+        margin-top: 110px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding: 110 auto;
+        width: 549px;
+height: 264px;
+
+    }
+    .fr-div button{
+        border-radius: 8px;
+        /* margin-left: 570px; */
+
+background: rgb(255, 0, 0);display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: white;
+padding: 16px 32px 16px 32px;
+width: 167px;
+height: 56px;
+font-size: 20px;
+font-weight: 700;
+border: none;
+margin-top: 20px;
+margin-left: 180px;
+
+    }
+    .fr-two{
+        /* margin: 110 auto; */
+text-align: center;
+/* margin-top: 80px; */
     }
